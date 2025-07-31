@@ -1,0 +1,140 @@
+{
+  "designation": "SDE",
+  "lab": "Projects, Testing & Deployment",
+  "module_id": "api-design-and-mocking",
+  "module_title": "Module 2: API Design and Mocking",
+  "difficulty": "Intermediate",
+  "last_updated": "2025-07-19",
+  "tags": ["api", "swagger", "postman", "mocking", "design"],
+  "review_status": "draft",
+  "source": {
+    "type": "research",
+    "url": "https://arxiv.org/pdf/2012.03096.pdf"
+  },
+  "segments": {
+    "introduction": {
+      "level_1": "API design enables systems to communicate effectively by defining request and response structures.",
+      "level_2": "Research highlights structured approaches like REST constraints and resource-oriented design.",
+      "level_3": "Recent studies show that design consistency improves developer onboarding and reduces bugs.",
+      "level_4": "Advanced methodologies like API-First and Contract-Driven Development are emerging trends."
+    },
+    "realWorldUseCases": [
+      {
+        "title": "E-learning Platforms",
+        "description": "APIs facilitate quizzes, progress tracking, and video streaming integration.",
+        "level": 1
+      },
+      {
+        "title": "Ride Sharing Apps",
+        "description": "Used for real-time location updates, payment processing, and notifications.",
+        "level": 2
+      },
+      {
+        "title": "Healthcare APIs",
+        "description": "Used to securely access and manage patient records across platforms.",
+        "level": 3
+      },
+      {
+        "title": "AI Model Access",
+        "description": "APIs expose machine learning models for inference in production systems.",
+        "level": 4
+      }
+    ],
+    "industryApplications": [
+      {
+        "domain": "Banking",
+        "description": "Open Banking APIs allow third-party apps to access bank data with user consent.",
+        "level": 1
+      },
+      {
+        "domain": "Social Media",
+        "description": "APIs enable features like user authentication and content feeds.",
+        "level": 2
+      },
+      {
+        "domain": "Cloud AI Services",
+        "description": "APIs provide scalable access to NLP, vision, and recommendation systems.",
+        "level": 3
+      },
+      {
+        "domain": "Enterprise Integration",
+        "description": "APIs are central to service-oriented architecture in large-scale applications.",
+        "level": 4
+      }
+    ],
+    "thinkingPattern": {
+      "level_1": "Understand the client needs and define required endpoints.",
+      "level_2": "Model request and response payloads using schema definitions.",
+      "level_3": "Apply REST principles like statelessness and resource abstraction.",
+      "level_4": "Include validation, error handling, and versioning from day one."
+    },
+    "problemTypes": {
+      "level_1": ["Ambiguous endpoint naming", "Missing documentation"],
+      "level_2": ["Tightly coupled services", "Unclear status codes"],
+      "level_3": ["Inconsistent versioning", "Poor API lifecycle management"],
+      "level_4": ["Lack of automated tests", "Breaking changes in deployed APIs"]
+    },
+    "assessmentsAndQuizzes": [
+      {
+        "question": "Which protocol is mostly used in REST APIs?",
+        "type": "MCQ",
+        "level": 1
+      },
+      {
+        "question": "Explain API-First design methodology.",
+        "type": "Short Answer",
+        "level": 2
+      },
+      {
+        "question": "Compare Swagger and RAML in terms of usability and flexibility.",
+        "type": "Scenario-based",
+        "level": 3
+      },
+      {
+        "question": "True or False: REST APIs must always be versioned for public use.",
+        "type": "True/False",
+        "level": 4
+      }
+    ],
+    "miniProjects": [
+      {
+        "title": "Simple REST API",
+        "description": "Design a simple REST API for a task manager app.",
+        "difficulty": "Beginner",
+        "goal_fit": ["API"],
+        "tags": ["rest", "crud"],
+        "level": 1
+      },
+      {
+        "title": "Mocked Booking API",
+        "description": "Create a mocked hotel booking API using Postman collections.",
+        "difficulty": "Intermediate",
+        "goal_fit": ["Testing"],
+        "tags": ["mocking", "swagger"],
+        "level": 2
+      },
+      {
+        "title": "API Documentation Tool",
+        "description": "Build documentation for an existing API using Swagger/OpenAPI.",
+        "difficulty": "Advanced",
+        "goal_fit": ["Docs"],
+        "tags": ["swagger", "docs"],
+        "level": 3
+      },
+      {
+        "title": "Contract-Driven API",
+        "description": "Implement an API based on contract-first development.",
+        "difficulty": "Expert",
+        "goal_fit": ["Enterprise"],
+        "tags": ["contract", "openapi"],
+        "level": 4
+      }
+    ],
+    "suggestionsAndMistakes": {
+      "level_1": ["Avoid using verbs in endpoint names.", "Always return standardized error formats."],
+      "level_2": ["Validate inputs on both client and server side.", "Separate concerns using controller/service design."],
+      "level_3": ["Use versioning and maintain changelogs.", "Write unit tests for each endpoint."],
+      "level_4": ["Plan deprecation strategies in advance.", "Use CI tools to automate contract validation."]
+    }
+  }
+}

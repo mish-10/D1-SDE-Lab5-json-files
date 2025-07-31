@@ -1,0 +1,64 @@
+{
+  "designation": "SDE",
+  "lab": "Projects, Testing & Deployment",
+  "module_id": "resume-building-demo-day",
+  "module_title": "Module 12: Resume Building and Demo Day",
+  "difficulty": "Beginner",
+  "last_updated": "2025-07-19",
+  "tags": ["resume", "demo", "portfolio", "interview", "presentation"],
+  "review_status": "draft",
+  "source": {
+    "type": "industry-trends",
+    "url": "https://www.weforum.org/agenda/2024/10/future-jobs-coding-resume-demo-day/"
+  },
+  "segments": {
+    "introduction": {
+      "level_1": "Industry trend reports emphasize the increasing value of showcasing skills over just listing them on resumes.",
+      "level_2": "Many companies now value GitHub contributions, live demos, and portfolio links as primary evidence of expertise.",
+      "level_3": "Reports also show the demand for storytelling through projects and real-world applicability.",
+      "level_4": "Advanced resumes now include QR codes to video demos and AI-generated skill analysis summaries."
+    },
+    "realWorldUseCases": [
+      {"title": "LinkedIn Profile Boost", "description": "Showcasing demo videos in the featured section to improve recruiter visibility.", "level": 1},
+      {"title": "Resume with Live Links", "description": "Attaching live project links in PDF resumes and portfolios.", "level": 2},
+      {"title": "Hackathon Pitch Day", "description": "Using industry-standard templates and visual aids during team demo day.", "level": 3},
+      {"title": "AI-Powered Resume Screeners", "description": "Aligning resume keywords to beat ATS and adding measurable metrics.", "level": 4}
+    ],
+    "industryApplications": [
+      {"domain": "Recruitment Tech", "description": "Trend shows rise of video resumes and skill-based hiring.", "level": 1},
+      {"domain": "Startups", "description": "Founders use personal portfolios and demo walkthroughs to attract investors.", "level": 2},
+      {"domain": "Remote Hiring", "description": "Demo Day practices replicated in async interviews and project-based hiring.", "level": 3},
+      {"domain": "Corporate Training", "description": "Employees now go through 'Showcase Weeks' to demonstrate internal upskilling.", "level": 4}
+    ],
+    "thinkingPattern": {
+      "level_1": "Start with identifying strengths and relevant past work.",
+      "level_2": "Map each skill to a project that demonstrates it.",
+      "level_3": "Structure demos using problem-solution-impact storytelling.",
+      "level_4": "Strategically align resume with future industry demands and trends."
+    },
+    "problemTypes": {
+      "level_1": ["Resume lacks uniqueness", "No GitHub or portfolio link included"],
+      "level_2": ["Skills mentioned but no project shown", "Outdated resume formatting"],
+      "level_3": ["No visible demo before interview", "Portfolio doesn't reflect job role"],
+      "level_4": ["Resume fails to align with emerging tech", "Demo not tailored to target role"]
+    },
+    "assessmentsAndQuizzes": [
+      {"question": "Which section is most important in modern resumes according to hiring trends?", "type": "MCQ", "level": 1},
+      {"question": "List 3 ways to showcase a project demo.", "type": "Short Answer", "level": 2},
+      {"question": "Design a resume layout based on skills, not job titles.", "type": "Scenario-based", "level": 3},
+      {"question": "True or False: Portfolios are optional in skill-based hiring.", "type": "True/False", "level": 4}
+    ],
+    "miniProjects": [
+      {"title": "Resume Reboot", "description": "Redesign your resume with a skill-first approach.", "difficulty": "Beginner", "goal_fit": ["Career"], "tags": ["resume", "design"], "level": 1},
+      {"title": "Demo Day Deck", "description": "Create a presentation slide deck showcasing your top 2 projects.", "difficulty": "Intermediate", "goal_fit": ["Presentation"], "tags": ["demo", "slides"], "level": 2},
+      {"title": "Portfolio Page", "description": "Build a personal website that includes resume, GitHub links, and live demos.", "difficulty": "Advanced", "goal_fit": ["Web"], "tags": ["portfolio", "webdev"], "level": 3},
+      {"title": "Video Walkthrough", "description": "Record a 2-minute walkthrough of your project and embed it in your resume.", "difficulty": "Expert", "goal_fit": ["Media"], "tags": ["video", "presentation"], "level": 4}
+    ],
+    "suggestionsAndMistakes": {
+      "level_1": ["Avoid generic resume templates.", "Always include a personal GitHub or LinkedIn."],
+      "level_2": ["Don’t forget to add outcomes in project descriptions.", "Use modern fonts and avoid clutter."],
+      "level_3": ["Prepare to narrate your demo story confidently.", "Avoid overloading slide decks with text."],
+      "level_4": ["Keep updating the portfolio based on industry role demands.", "Demo should be relevant, not just flashy."]
+    }
+  }
+}

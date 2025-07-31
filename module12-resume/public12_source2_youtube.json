@@ -1,0 +1,64 @@
+{
+  "designation": "SDE",
+  "lab": "Projects, Testing & Deployment",
+  "module_id": "resume-and-demo-day",
+  "module_title": "Module 12: Resume Building and Demo Day",
+  "difficulty": "Intermediate",
+  "last_updated": "2025-07-19",
+  "tags": ["resume", "interview", "presentation", "demo-day", "career"],
+  "review_status": "draft",
+  "source": {
+    "type": "youtube",
+    "url": "https://youtu.be/GbUcbZ7Axz4"
+  },
+  "segments": {
+    "introduction": {
+      "level_1": "YouTube videos often explain resumes as your first impression to recruiters.",
+      "level_2": "They emphasize customizing each resume for the job you're applying to.",
+      "level_3": "Tips include integrating keywords from job descriptions.",
+      "level_4": "Advanced guides focus on data-driven resumes with metrics and impact."
+    },
+    "realWorldUseCases": [
+      {"title": "College Placement", "description": "Students preparing their first tech resume for on-campus jobs.", "level": 1},
+      {"title": "Hackathon Showcase", "description": "Demoing projects live to judges and recruiters.", "level": 2},
+      {"title": "Open Source Pitch", "description": "Presenting contributions to open source in meetups.", "level": 3},
+      {"title": "Startup Founder Pitch", "description": "Demoing MVP to VCs and Angel Investors.", "level": 4}
+    ],
+    "industryApplications": [
+      {"domain": "EdTech", "description": "Resume advice for freshers preparing for edtech companies.", "level": 1},
+      {"domain": "HR Tech", "description": "Resume parsers used by recruiters filter out poor formatting.", "level": 2},
+      {"domain": "Recruitment", "description": "Live demo days organized as hiring hackathons.", "level": 3},
+      {"domain": "Startup Hiring", "description": "Founders look for storytelling and metrics in resume + pitch.", "level": 4}
+    ],
+    "thinkingPattern": {
+      "level_1": "Highlight what you know, even if it's just coursework.",
+      "level_2": "Include results: e.g., 'Improved load speed by 40%'.",
+      "level_3": "Research the company and include specific skill matches.",
+      "level_4": "Create different resumes for different job types and include project URLs."
+    },
+    "problemTypes": {
+      "level_1": ["No project links in resume", "Typos and poor formatting"],
+      "level_2": ["Resume rejected by ATS", "No results or metrics listed"],
+      "level_3": ["No alignment with job role", "Generic or cluttered content"],
+      "level_4": ["Failed to present impact in demo", "Lack of technical storytelling"]
+    },
+    "assessmentsAndQuizzes": [
+      {"question": "What are 3 common mistakes students make in resumes?", "type": "MCQ", "level": 1},
+      {"question": "What is the STAR format in interviews?", "type": "Short Answer", "level": 2},
+      {"question": "Create a resume snippet for a project that improved latency.", "type": "Scenario-based", "level": 3},
+      {"question": "True or False: One generic resume fits all tech jobs.", "type": "True/False", "level": 4}
+    ],
+    "miniProjects": [
+      {"title": "Create ATS-Friendly Resume", "description": "Use a clean format with keywords for parsing.", "difficulty": "Beginner", "goal_fit": ["Resume Building"], "tags": ["resume", "ats"], "level": 1},
+      {"title": "Video Demo Recording", "description": "Record yourself explaining your capstone project.", "difficulty": "Intermediate", "goal_fit": ["Presentation"], "tags": ["demo", "communication"], "level": 2},
+      {"title": "STAR Story Sheet", "description": "Write STAR format answers for 3 challenges you've faced.", "difficulty": "Advanced", "goal_fit": ["Interview Prep"], "tags": ["star", "storytelling"], "level": 3},
+      {"title": "Live Pitch Day", "description": "Simulate a live project pitch to mock investors.", "difficulty": "Expert", "goal_fit": ["Demo Day"], "tags": ["pitch", "startup"], "level": 4}
+    ],
+    "suggestionsAndMistakes": {
+      "level_1": ["Don’t add unnecessary personal info like full address.", "Avoid listing skills you’re not confident in."],
+      "level_2": ["Don't copy someone else's resume blindly.", "Avoid fancy templates that break ATS."],
+      "level_3": ["Don’t skip explaining the project context in your demo.", "Avoid reading slides word-for-word."],
+      "level_4": ["Avoid vague statements like 'worked on UI'. Be specific.", "Never say 'I don’t know' without a recovery answer."]
+    }
+  }
+}

@@ -1,0 +1,71 @@
+Module Title: Module 12: Resume Building and Demo Day
+Module ID: resume-building-demo-day
+Designation: SDE
+Lab: Projects, Testing & Deployment
+Last Updated: 2025-07-19
+
+ SOURCES USED – MODULE 12
+Book
+
+Title: The Google Résumé
+
+URL: https://www.googlebooksummary.com/the-google-resume/
+
+YouTube
+
+Title: Resume Tips for Software Developers (with Examples)
+
+URL: https://youtu.be/epVyrTqtnk8
+
+Article
+
+Title: How to Make a Software Engineer Resume (Examples + Tips)
+
+URL: https://www.freecodecamp.org/news/software-engineer-resume-example/
+
+Research Paper
+
+Title: The Effect of Visual Resume Design on Hiring Decisions
+
+URL: https://www.researchgate.net/publication/331602834
+
+Podcast
+
+Title: Tech Resume Inside Out – The Podcast
+
+URL: https://www.techresumeinsideout.com/podcast
+
+Industry Trends
+
+Title: Future of Hiring: Demos > Degrees
+
+URL: https://www.weforum.org/agenda/2024/10/future-jobs-coding-resume-demo-day/
+
+Course
+
+Title: How to Build a Tech Resume
+
+URL: https://www.udemy.com/course/how-to-build-a-tech-resume/
+
+Google Search
+
+Keywords: resume tips for software developers with demo project
+
+Top Link: https://www.interviewkickstart.com/career-advice/software-engineer-resume
+
+Snippet: Learn how to format your resume for developer roles, including GitHub and demo links.
+
+
+NOTES – MODULE 12
+Each source was carefully selected to cover the full spectrum of the resume building and demo presentation process — from beginner to expert levels.
+
+Emphasis was placed on real-world alignment: portfolio-first hiring, GitHub visibility, demo storytelling, and modern resume formats.
+
+Variety in learning sources ensured balance between practical, visual, theoretical, and strategic inputs.
+
+The structure follows the 8-segment module format with all 4 levels of difficulty per segment.
+
+Sources like World Economic Forum and TechResumeInsideOut help reflect latest industry hiring trends.
+
+Each .json is named and structured uniquely based on the source type to avoid confusion.
+

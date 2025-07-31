@@ -1,0 +1,64 @@
+{
+  "designation": "SDE",
+  "lab": "Projects, Testing & Deployment",
+  "module_id": "api-design-mocking",
+  "module_title": "Module 2: API Design and Mocking",
+  "difficulty": "Beginner",
+  "last_updated": "2025-07-19",
+  "tags": ["api", "mocking", "backend", "postman", "swagger"],
+  "review_status": "draft",
+  "source": {
+    "type": "google-search",
+    "url": "https://www.google.com/search?q=how+to+design+mock+api+swagger+postman"
+  },
+  "segments": {
+    "introduction": {
+      "level_1": "APIs act as the bridge between frontend and backend, making structured communication possible.",
+      "level_2": "Mock APIs allow developers to test endpoints before backend logic is ready.",
+      "level_3": "Design-first approach is encouraged where API structure is defined before coding.",
+      "level_4": "OpenAPI/Swagger documentation makes APIs self-explanatory and testable."
+    },
+    "realWorldUseCases": [
+      {"title": "Mocking Product Listings API", "description": "Used in e-commerce sites to simulate product data fetching.", "level": 1},
+      {"title": "Swagger UI for Team Handover", "description": "Helps frontend teams understand API structure via auto-generated docs.", "level": 2},
+      {"title": "Postman for Contract Testing", "description": "Mock server set up to run tests independently of backend.", "level": 3},
+      {"title": "API Simulator for Load Testing", "description": "Replicates live API behavior to test app under traffic.", "level": 4}
+    ],
+    "industryApplications": [
+      {"domain": "FinTech", "description": "APIs used to access accounts, simulate transactions via mocks.", "level": 1},
+      {"domain": "Healthcare IT", "description": "Mocking EMR APIs for secure development without using patient data.", "level": 2},
+      {"domain": "SaaS Development", "description": "Multiple teams develop in parallel using Swagger contracts.", "level": 3},
+      {"domain": "Game Development", "description": "Simulated leaderboard APIs to build client logic before final integration.", "level": 4}
+    ],
+    "thinkingPattern": {
+      "level_1": "Start with the expected request and response format.",
+      "level_2": "Sketch API endpoints on paper or use Swagger Editor.",
+      "level_3": "Use Postman or Mockoon to simulate APIs for frontend use.",
+      "level_4": "Design APIs with reusability and long-term maintainability in mind."
+    },
+    "problemTypes": {
+      "level_1": ["Cannot fetch API data in frontend", "URL not giving proper response"],
+      "level_2": ["Error due to backend not being ready", "Manual testing takes too long"],
+      "level_3": ["Ambiguous API contract causing rework", "No way to share API expectations with team"],
+      "level_4": ["Version control issues in API definition", "Poor API structure affecting scaling"]
+    },
+    "assessmentsAndQuizzes": [
+      {"question": "What does API mocking mean in software development?", "type": "MCQ", "level": 1},
+      {"question": "List two benefits of using Swagger for API documentation.", "type": "Short Answer", "level": 2},
+      {"question": "Create a mock API plan for a weather app.", "type": "Scenario-based", "level": 3},
+      {"question": "True or False: API mocking eliminates the need for backend code.", "type": "True/False", "level": 4}
+    ],
+    "miniProjects": [
+      {"title": "Mock Login API", "description": "Create a mock POST API for login using Postman.", "difficulty": "Beginner", "goal_fit": ["API"], "tags": ["mock", "postman"], "level": 1},
+      {"title": "Swagger UI Design", "description": "Write Swagger spec for a book listing API.", "difficulty": "Intermediate", "goal_fit": ["Docs"], "tags": ["swagger", "openapi"], "level": 2},
+      {"title": "API Contract Testing", "description": "Use Postman to test mocked API with schema validation.", "difficulty": "Advanced", "goal_fit": ["Testing"], "tags": ["schema", "contract"], "level": 3},
+      {"title": "Versioned API Spec", "description": "Design a mock API with v1 and v2 versions for the same service.", "difficulty": "Expert", "goal_fit": ["Versioning"], "tags": ["mock", "swagger"], "level": 4}
+    ],
+    "suggestionsAndMistakes": {
+      "level_1": ["Avoid skipping request/response formats.", "Don’t forget base URL and headers."],
+      "level_2": ["Don’t build APIs before writing their contract.", "Avoid mixing test and real APIs."],
+      "level_3": ["Keep consistent naming across all endpoints.", "Use proper HTTP status codes."],
+      "level_4": ["Use API versioning for long-term growth.", "Document all changes in the Swagger/OpenAPI file."]
+    }
+  }
+}

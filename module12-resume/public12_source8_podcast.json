@@ -1,0 +1,64 @@
+{
+  "designation": "SDE",
+  "lab": "Projects, Testing & Deployment",
+  "module_id": "api-design-mocking",
+  "module_title": "Module 2: API Design and Mocking",
+  "difficulty": "Beginner",
+  "last_updated": "2025-07-19",
+  "tags": ["api", "design", "mocking", "development", "testing"],
+  "review_status": "draft",
+  "source": {
+    "type": "podcast",
+    "url": "https://www.codenewbie.org/podcast/designing-robust-apis"
+  },
+  "segments": {
+    "introduction": {
+      "level_1": "APIs are the bridges that allow software systems to communicate with each other.",
+      "level_2": "Well-designed APIs make integration seamless and help reduce bugs.",
+      "level_3": "Mocking APIs helps teams simulate functionality before actual development.",
+      "level_4": "Advanced API planning includes thinking about versioning, errors, and long-term maintenance."
+    },
+    "realWorldUseCases": [
+      {"title": "Third-Party Integrations", "description": "APIs allow apps to use Google Maps, payment gateways, etc.", "level": 1},
+      {"title": "E-commerce Backend", "description": "Product catalog, cart, and checkout rely on RESTful APIs.", "level": 2},
+      {"title": "Mock Server Testing", "description": "Using Postman or Swagger to mock responses before backend is built.", "level": 3},
+      {"title": "API Gateway Management", "description": "Using tools like Kong or AWS API Gateway for rate-limiting, security.", "level": 4}
+    ],
+    "industryApplications": [
+      {"domain": "Fintech", "description": "Secure APIs used for transactions and KYC verification.", "level": 1},
+      {"domain": "Healthcare", "description": "APIs used to share patient data across platforms.", "level": 2},
+      {"domain": "Cloud Platforms", "description": "APIs power resource provisioning and scaling in real time.", "level": 3},
+      {"domain": "AI/ML Services", "description": "APIs deliver predictions from models hosted on cloud.", "level": 4}
+    ],
+    "thinkingPattern": {
+      "level_1": "Understand request/response basics (GET, POST).",
+      "level_2": "Design endpoints for specific functionality.",
+      "level_3": "Implement mock servers to test assumptions.",
+      "level_4": "Plan APIs to be future-proof with versioning and documentation."
+    },
+    "problemTypes": {
+      "level_1": ["Not sure how to make a basic API call", "Confused about API methods"],
+      "level_2": ["Can't decide endpoint structure", "Overlapping functionality in routes"],
+      "level_3": ["No way to test API until backend is ready", "Mock data not realistic"],
+      "level_4": ["API breaks due to version mismatch", "Lack of backward compatibility"]
+    },
+    "assessmentsAndQuizzes": [
+      {"question": "What are the common HTTP methods used in REST APIs?", "type": "MCQ", "level": 1},
+      {"question": "Write a sample endpoint for user registration.", "type": "Short Answer", "level": 2},
+      {"question": "Design a mocked API response for a weather app.", "type": "Scenario-based", "level": 3},
+      {"question": "True or False: API versioning is optional in production-ready systems.", "type": "True/False", "level": 4}
+    ],
+    "miniProjects": [
+      {"title": "API Hello World", "description": "Build a basic Express.js API with one route.", "difficulty": "Beginner", "goal_fit": ["Backend"], "tags": ["api", "express"], "level": 1},
+      {"title": "Product API", "description": "Create CRUD routes for a product system.", "difficulty": "Intermediate", "goal_fit": ["Backend"], "tags": ["crud", "rest"], "level": 2},
+      {"title": "Mock Server Setup", "description": "Use Swagger to define and simulate API behavior.", "difficulty": "Advanced", "goal_fit": ["Testing"], "tags": ["swagger", "mock"], "level": 3},
+      {"title": "Versioned API System", "description": "Develop v1 and v2 of the same API and test compatibility.", "difficulty": "Expert", "goal_fit": ["Scalability"], "tags": ["versioning", "api-design"], "level": 4}
+    ],
+    "suggestionsAndMistakes": {
+      "level_1": ["Don’t confuse REST with SOAP.", "Always return a proper status code."],
+      "level_2": ["Avoid overly complex URL structures.", "Use meaningful naming conventions."],
+      "level_3": ["Don’t ignore mock server limits.", "Simulate edge cases in testing."],
+      "level_4": ["Avoid skipping versioning even in MVP.", "Always write API docs alongside code."]
+    }
+  }
+}

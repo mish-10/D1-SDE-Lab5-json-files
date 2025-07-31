@@ -1,0 +1,64 @@
+{
+  "designation": "SDE",
+  "lab": "Projects, Testing & Deployment",
+  "module_id": "resume-demo-day",
+  "module_title": "Module 12: Resume Building and Demo Day",
+  "difficulty": "Intermediate",
+  "last_updated": "2025-07-19",
+  "tags": ["resume", "portfolio", "demo day", "interview prep"],
+  "review_status": "draft",
+  "source": {
+    "type": "article",
+    "url": "https://www.geeksforgeeks.org/how-to-create-an-effective-software-engineer-resume/"
+  },
+  "segments": {
+    "introduction": {
+      "level_1": "Articles explain what a software engineering resume is and why it matters.",
+      "level_2": "They emphasize tailoring resumes to roles with keywords.",
+      "level_3": "Recommendations include adding quantifiable achievements.",
+      "level_4": "Tips on structuring multi-page resumes for senior roles are discussed."
+    },
+    "realWorldUseCases": [
+      {"title": "Resume for Intern Role", "description": "Includes basic academic and project sections.", "level": 1},
+      {"title": "Portfolio Site", "description": "A single-page portfolio showing projects, skills, and blog posts.", "level": 2},
+      {"title": "Resume for SDE-1", "description": "Highlights production projects, internships, and impact metrics.", "level": 3},
+      {"title": "Demo Day Presentation", "description": "Pitching a capstone project with video demo and pitch deck.", "level": 4}
+    ],
+    "industryApplications": [
+      {"domain": "Hiring", "description": "Recruiters filter resumes in under 10 seconds.", "level": 1},
+      {"domain": "EdTech", "description": "Resume reviews are part of mock interviews.", "level": 2},
+      {"domain": "Startups", "description": "Founders value clarity, skill match, and self-driven projects.", "level": 3},
+      {"domain": "Consulting", "description": "Consultants present project portfolios to clients.", "level": 4}
+    ],
+    "thinkingPattern": {
+      "level_1": "Start with a basic resume template.",
+      "level_2": "Update projects with outcomes and learning.",
+      "level_3": "Organize by relevance, not just chronology.",
+      "level_4": "Link resume with GitHub, portfolio, and demo video."
+    },
+    "problemTypes": {
+      "level_1": ["Choosing a good resume format", "Listing skills vs. proving skills"],
+      "level_2": ["Handling academic gaps", "Adding non-coding projects"],
+      "level_3": ["Explaining impact of projects", "Adding remote internships"],
+      "level_4": ["Pitching in demo day", "Creating a compelling GitHub profile"]
+    },
+    "assessmentsAndQuizzes": [
+      {"question": "What are the 3 key sections of a fresher resume?", "type": "MCQ", "level": 1},
+      {"question": "Give 2 examples of quantifiable achievements.", "type": "Short Answer", "level": 2},
+      {"question": "Analyze a resume and suggest 3 improvements.", "type": "Scenario-based", "level": 3},
+      {"question": "True/False: Demo Day pitch should only focus on the tech stack.", "type": "True/False", "level": 4}
+    ],
+    "miniProjects": [
+      {"title": "Resume Draft", "description": "Create your first technical resume using a clean template.", "difficulty": "Beginner", "goal_fit": ["Career Prep"], "tags": ["resume", "formatting"], "level": 1},
+      {"title": "Portfolio Build", "description": "Use HTML/CSS or site builder to showcase projects.", "difficulty": "Intermediate", "goal_fit": ["Web Dev", "Branding"], "tags": ["portfolio", "personal site"], "level": 2},
+      {"title": "Resume Impact Tracker", "description": "Log measurable results (downloads, stars, feedback) from projects.", "difficulty": "Advanced", "goal_fit": ["Tracking"], "tags": ["results", "proof"], "level": 3},
+      {"title": "Demo Day Pitch", "description": "Prepare a 3-minute video pitch with screen recording and narration.", "difficulty": "Expert", "goal_fit": ["Communication"], "tags": ["pitch", "presentation"], "level": 4}
+    ],
+    "suggestionsAndMistakes": {
+      "level_1": ["Avoid fancy fonts and colors.", "Don’t use generic resume templates."],
+      "level_2": ["Tailor resume to each role.", "Don’t ignore proofreading."],
+      "level_3": ["Add GitHub, LinkedIn, and live project links.", "Quantify, don’t just list projects."],
+      "level_4": ["Test your pitch with peers.", "Don’t ignore the storytelling aspect in demo day."]
+    }
+  }
+}

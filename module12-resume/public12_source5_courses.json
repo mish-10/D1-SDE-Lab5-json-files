@@ -1,0 +1,152 @@
+{
+  "designation": "SDE",
+  "lab": "Projects, Testing & Deployment",
+  "module_id": "api-design-and-mocking",
+  "module_title": "Module 2: API Design and Mocking",
+  "difficulty": "Intermediate",
+  "last_updated": "2025-07-19",
+  "tags": ["API", "design", "mocking", "REST", "Swagger", "Postman"],
+  "review_status": "draft",
+  "source": {
+    "type": "course",
+    "url": "https://www.coursera.org/learn/api-design"
+  },
+  "segments": {
+    "introduction": {
+      "level_1": "APIs allow different software systems to talk to each other. Designing them properly is critical to software scalability.",
+      "level_2": "Courses introduce RESTful principles, API endpoints, and design patterns.",
+      "level_3": "Emphasis is placed on mocking APIs for testing without backend availability.",
+      "level_4": "Advanced modules explore GraphQL, OpenAPI (Swagger), and HATEOAS principles in depth."
+    },
+    "realWorldUseCases": [
+      {
+        "title": "Mock First Development",
+        "description": "Teams use Postman and Swagger to simulate API behavior before backend is ready.",
+        "level": 1
+      },
+      {
+        "title": "API Integration Layer",
+        "description": "Microservices communicate via REST APIs to ensure decoupling and modularity.",
+        "level": 2
+      },
+      {
+        "title": "Third-party Payment API",
+        "description": "Simulate payment flows using mocked responses for fast prototyping.",
+        "level": 3
+      },
+      {
+        "title": "API Versioning at Scale",
+        "description": "Enterprises use design-first principles to evolve APIs across multiple services.",
+        "level": 4
+      }
+    ],
+    "industryApplications": [
+      {
+        "domain": "E-commerce",
+        "description": "Use APIs to manage product listings, payments, and order fulfillment.",
+        "level": 1
+      },
+      {
+        "domain": "Fintech",
+        "description": "APIs allow secure communication between banking apps and services.",
+        "level": 2
+      },
+      {
+        "domain": "Healthcare",
+        "description": "FHIR APIs standardize communication of patient data between systems.",
+        "level": 3
+      },
+      {
+        "domain": "Cloud Platforms",
+        "description": "Cloud providers offer extensive APIs for managing infrastructure and services.",
+        "level": 4
+      }
+    ],
+    "thinkingPattern": {
+      "level_1": "Think in terms of request-response cycles.",
+      "level_2": "Identify API consumers and structure endpoints based on user stories.",
+      "level_3": "Model request/response schemas before coding begins.",
+      "level_4": "Use API design specs to drive team discussions and documentation practices."
+    },
+    "problemTypes": {
+      "level_1": ["Poorly named endpoints", "Missing documentation"],
+      "level_2": ["Lack of mock testing", "No separation of request schema from logic"],
+      "level_3": ["Inconsistent error handling", "Hardcoded responses in mocks"],
+      "level_4": ["No backward compatibility", "Poor support for versioned APIs"]
+    },
+    "assessmentsAndQuizzes": [
+      {
+        "question": "Which tool is commonly used to mock APIs?",
+        "type": "MCQ",
+        "level": 1
+      },
+      {
+        "question": "Design a GET endpoint for retrieving user profile.",
+        "type": "Short Answer",
+        "level": 2
+      },
+      {
+        "question": "Evaluate an API spec and identify design flaws.",
+        "type": "Scenario-based",
+        "level": 3
+      },
+      {
+        "question": "True or False: Versioning is optional in public APIs.",
+        "type": "True/False",
+        "level": 4
+      }
+    ],
+    "miniProjects": [
+      {
+        "title": "User Info API",
+        "description": "Design and mock an API that handles user signup and login.",
+        "difficulty": "Beginner",
+        "goal_fit": ["API", "Authentication"],
+        "tags": ["mocking", "auth"],
+        "level": 1
+      },
+      {
+        "title": "Weather API Mock",
+        "description": "Create mock responses for a weather API using Swagger or Postman.",
+        "difficulty": "Intermediate",
+        "goal_fit": ["Simulation"],
+        "tags": ["weather", "json", "mock"],
+        "level": 2
+      },
+      {
+        "title": "CRUD Product API",
+        "description": "Design and document full CRUD endpoints for a product catalog.",
+        "difficulty": "Advanced",
+        "goal_fit": ["Backend"],
+        "tags": ["crud", "swagger"],
+        "level": 3
+      },
+      {
+        "title": "API Mock Server with Validation",
+        "description": "Deploy a mock server that validates request schema and returns dynamic responses.",
+        "difficulty": "Expert",
+        "goal_fit": ["DevOps"],
+        "tags": ["mock-server", "schema"],
+        "level": 4
+      }
+    ],
+    "suggestionsAndMistakes": {
+      "level_1": [
+        "Don't hardcode mock data—use variables.",
+        "Stick to RESTful conventions like plural nouns."
+      ],
+      "level_2": [
+        "Avoid deep nesting in JSON responses.",
+        "Ensure endpoints return consistent status codes."
+      ],
+      "level_3": [
+        "Document every endpoint and payload example.",
+        "Test edge cases like missing parameters or invalid data."
+      ],
+      "level_4": [
+        "Maintain backwards compatibility while evolving APIs.",
+        "Always include rate limiting and error format guidelines."
+      ]
+    }
+  }
+}

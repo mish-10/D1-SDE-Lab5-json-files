@@ -1,0 +1,64 @@
+{
+  "designation": "SDE",
+  "lab": "Projects, Testing & Deployment",
+  "module_id": "resume-demo-day",
+  "module_title": "Module 12: Resume Building and Demo Day",
+  "difficulty": "Intermediate",
+  "last_updated": "2025-07-19",
+  "tags": ["resume", "demo-day", "portfolio", "career", "presentation"],
+  "review_status": "draft",
+  "source": {
+    "type": "public-pdf",
+    "url": "https://career.berkeley.edu/sites/default/files/pdf/Guide/Resume.pdf"
+  },
+  "segments": {
+    "introduction": {
+      "level_1": "A resume is a snapshot of your professional experience and skills.",
+      "level_2": "The guide highlights structuring your resume into clear, concise sections.",
+      "level_3": "It emphasizes tailoring resumes for specific roles and industries.",
+      "level_4": "Advanced formatting, keyword optimization, and metrics-driven results are key for competitive resumes."
+    },
+    "realWorldUseCases": [
+      {"title": "Campus Placement", "description": "Using a one-page resume with projects and internships.", "level": 1},
+      {"title": "Startup Job Hunt", "description": "Highlighting side-projects and GitHub contributions.", "level": 2},
+      {"title": "International Internship", "description": "Tailoring resume for global opportunities using action verbs.", "level": 3},
+      {"title": "Tech Conference Demo Day", "description": "Presenting resume with visual timeline and outcome metrics.", "level": 4}
+    ],
+    "industryApplications": [
+      {"domain": "Tech", "description": "Resumes emphasize projects, problem-solving, and technologies used.", "level": 1},
+      {"domain": "Consulting", "description": "Showcasing client results, leadership, and impact.", "level": 2},
+      {"domain": "Startups", "description": "Recruiters focus on self-driven initiatives and product delivery.", "level": 3},
+      {"domain": "Academia/Research", "description": "CVs list publications, presentations, and peer reviews.", "level": 4}
+    ],
+    "thinkingPattern": {
+      "level_1": "Use a simple, readable layout with consistent formatting.",
+      "level_2": "Start bullet points with strong action verbs.",
+      "level_3": "Include quantifiable impact and context.",
+      "level_4": "Match your resume to job descriptions using keyword analysis tools."
+    },
+    "problemTypes": {
+      "level_1": ["Spelling errors", "Too long or too short resume"],
+      "level_2": ["Lack of clarity in role descriptions", "Missing contact info"],
+      "level_3": ["Generic statements", "No evidence of outcomes"],
+      "level_4": ["Keyword mismatch with ATS", "Irrelevant information included"]
+    },
+    "assessmentsAndQuizzes": [
+      {"question": "What are the key sections of a technical resume?", "type": "MCQ", "level": 1},
+      {"question": "Rewrite a poorly written resume summary.", "type": "Short Answer", "level": 2},
+      {"question": "Design a resume for a backend developer with 2 years’ experience.", "type": "Scenario-based", "level": 3},
+      {"question": "True/False: It’s okay to have a 3-page resume for an entry-level job.", "type": "True/False", "level": 4}
+    ],
+    "miniProjects": [
+      {"title": "Resume Template Rebuild", "description": "Redesign your resume in LaTeX or Canva.", "difficulty": "Beginner", "goal_fit": ["Design"], "tags": ["resume", "formatting"], "level": 1},
+      {"title": "Role-based Resume", "description": "Create two resumes for two different job roles.", "difficulty": "Intermediate", "goal_fit": ["Job Prep"], "tags": ["customization", "ATS"], "level": 2},
+      {"title": "Project-based Resume", "description": "Build a resume focused on portfolio/project outcomes.", "difficulty": "Advanced", "goal_fit": ["Portfolio"], "tags": ["project impact", "metrics"], "level": 3},
+      {"title": "Keyword Optimization", "description": "Run your resume through ATS tools like Jobscan.", "difficulty": "Expert", "goal_fit": ["Recruitment"], "tags": ["ats", "jobscan"], "level": 4}
+    ],
+    "suggestionsAndMistakes": {
+      "level_1": ["Avoid using generic fonts like Comic Sans.", "Don't clutter with too many graphics."],
+      "level_2": ["Keep bullet points consistent in tense.", "Don’t forget LinkedIn or GitHub links."],
+      "level_3": ["Don’t use passive voice excessively.", "Avoid buzzwords without examples."],
+      "level_4": ["Test resumes through ATS systems.", "Ensure visual formatting doesn’t break on different devices."]
+    }
+  }
+}
