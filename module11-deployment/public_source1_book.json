@@ -1,0 +1,98 @@
+{
+  "designation": "SDE",
+  "lab": "Projects, Testing & Deployment",
+  "module_id": "project-deployment",
+  "module_title": "Module 11: Project Deployment",
+  "difficulty": "Intermediate",
+  "last_updated": "2025-07-19",
+  "tags": [
+    "deployment",
+    "web-apps",
+    "cloud-hosting",
+    "scaling",
+    "build-tools"
+  ],
+  "review_status": "draft",
+  "source": {
+    "type": "book",
+    "reference": "The DevOps Handbook by Gene Kim"
+  },
+  "segments": {
+    "introduction": {
+      "level_1": "Understanding the basic process of deploying a project to production.",
+      "level_2": "Recognizing different hosting environments: shared, VPS, cloud.",
+      "level_3": "Distinguishing between staging, testing, and production deployments.",
+      "level_4": "Exploring zero-downtime and rolling deployments."
+    },
+    "realWorldUseCases": [
+      {"title": "Static Site Hosting", "description": "Deploying a portfolio or documentation website using GitHub Pages or Netlify.", "level": 1},
+      {"title": "Node.js App Deployment", "description": "Deploying a Node.js backend on Render, Railway, or Heroku.", "level": 2},
+      {"title": "Cloud-native Microservices", "description": "Deploying containerized microservices on AWS ECS.", "level": 3},
+      {"title": "CI/CD-based Full Stack App", "description": "Deploying a full-stack application with GitHub Actions and Kubernetes.", "level": 4}
+    ],
+    "industryApplications": [
+      {"domain": "Startups", "description": "Fast iteration and push-to-prod techniques.", "level": 1},
+      {"domain": "Enterprises", "description": "Managed deployments with automated checks.", "level": 2},
+      {"domain": "SaaS Platforms", "description": "Rolling deployments for continuous delivery.", "level": 3},
+      {"domain": "Fintech/Healthcare", "description": "Secure deployment pipelines with audit trails.", "level": 4}
+    ],
+    "thinkingPattern": {
+      "level_1": "Manual deployment via file upload or Git.",
+      "level_2": "Using build tools and deployment scripts.",
+      "level_3": "Versioning releases and environment configs.",
+      "level_4": "Creating self-healing deployments with rollback."
+    },
+    "problemTypes": {
+      "level_1": ["Uploading files to a server", "Linking frontend with hosted backend"],
+      "level_2": ["Deploying React app on Netlify", "Integrating GitHub for auto-deploy"],
+      "level_3": ["Deploying APIs with environment configs", "Using CI to push staging releases"],
+      "level_4": ["Handling traffic spikes during deployment", "Implementing blue-green deployment"]
+    },
+    "assessmentsAndQuizzes": [
+      {"question": "Which platforms offer free static hosting?", "type": "MCQ", "level": 1},
+      {"question": "List steps to deploy a Node.js app to Render.", "type": "Short Answer", "level": 2},
+      {"question": "Design a CI pipeline that deploys to a staging and then production.", "type": "Scenario-based", "level": 3},
+      {"question": "True or False: Rolling deployments allow traffic to switch gradually.", "type": "True/False", "level": 4}
+    ],
+    "miniProjects": [
+      {
+        "title": "React Website Deployment",
+        "description": "Deploy a React frontend using Netlify.",
+        "difficulty": "Easy",
+        "goal_fit": ["Frontend"],
+        "tags": ["deployment", "static-site"],
+        "level": 1
+      },
+      {
+        "title": "Node.js App on Railway",
+        "description": "Deploy a backend API using Railway platform.",
+        "difficulty": "Intermediate",
+        "goal_fit": ["Backend"],
+        "tags": ["api", "cloud"],
+        "level": 2
+      },
+      {
+        "title": "Staging-Production Split",
+        "description": "Set up separate branches and environments for testing and production.",
+        "difficulty": "Intermediate",
+        "goal_fit": ["DevOps"],
+        "tags": ["staging", "env-config"],
+        "level": 3
+      },
+      {
+        "title": "CI/CD Rollback Feature",
+        "description": "Add rollback on failure logic in deployment scripts.",
+        "difficulty": "Advanced",
+        "goal_fit": ["DevOps", "Automation"],
+        "tags": ["ci", "rollback", "safe-deploy"],
+        "level": 4
+      }
+    ],
+    "suggestionsAndMistakes": {
+      "level_1": ["Don’t hardcode API URLs.", "Avoid uploading build files manually each time."],
+      "level_2": ["Check your environment variables before deploying.", "Use `.env` files for separation."],
+      "level_3": ["Don’t deploy to production without staging test.", "Never skip CI checks."],
+      "level_4": ["Log deployment changes with commit IDs.", "Always enable rollback in CI/CD pipelines."]
+    }
+  }
+}

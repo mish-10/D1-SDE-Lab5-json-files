@@ -1,0 +1,64 @@
+{
+  "designation": "SDE",
+  "lab": "Projects, Testing & Deployment",
+  "module_id": "project-deployment",
+  "module_title": "Module 11: Project Deployment",
+  "difficulty": "Advanced",
+  "last_updated": "2025-07-19",
+  "tags": ["deployment", "cloud", "production", "CI/CD", "testing"],
+  "review_status": "draft",
+  "source": {
+    "type": "public-course",
+    "url": "https://coursera.org/learn/deployment-strategies"
+  },
+  "segments": {
+    "introduction": {
+      "level_1": "Courses introduce deployment as the step of releasing applications to users.",
+      "level_2": "Intermediate levels explore environments like dev, staging, and production.",
+      "level_3": "Learners cover CI/CD tools like Jenkins, GitHub Actions, and cloud services.",
+      "level_4": "Advanced courses include monitoring, rollback mechanisms, and compliance during deployment."
+    },
+    "realWorldUseCases": [
+      {"title": "Static Site with Vercel", "description": "Deploying React apps using serverless platforms.", "level": 1},
+      {"title": "Flask App to Heroku", "description": "Course demo of deploying a Python backend.", "level": 2},
+      {"title": "CI/CD Pipeline Demo", "description": "Automated deployment using Jenkins or GitHub Actions.", "level": 3},
+      {"title": "AWS Blue-Green Strategy", "description": "Deploying across regions with no downtime.", "level": 4}
+    ],
+    "industryApplications": [
+      {"domain": "Startups", "description": "Courses show how startups use Heroku and Vercel to deploy MVPs quickly.", "level": 1},
+      {"domain": "SaaS Platforms", "description": "CI pipelines are used to deploy daily or hourly builds.", "level": 2},
+      {"domain": "Cloud-Native Companies", "description": "Deploying using Kubernetes and Docker at scale.", "level": 3},
+      {"domain": "Enterprises", "description": "Secure and compliant deployment across teams with strict audit logs.", "level": 4}
+    ],
+    "thinkingPattern": {
+      "level_1": "Understand when a deployment is considered successful.",
+      "level_2": "Use course rubrics to assess staging vs production testing.",
+      "level_3": "Implement gradual rollouts using percentage-based traffic routing.",
+      "level_4": "Apply automated governance to ensure rollback and traceability."
+    },
+    "problemTypes": {
+      "level_1": ["How do you deploy an HTML/CSS site?", "Which tools require no CLI experience?"],
+      "level_2": ["Set up CI workflow using GitHub", "What is a canary release?"],
+      "level_3": ["How to monitor deployments with Prometheus?", "Integrate Slack alerts post-deployment"],
+      "level_4": ["Create deployment SOP for fintech app", "Handle deployment under traffic spike"]
+    },
+    "assessmentsAndQuizzes": [
+      {"question": "What is the purpose of staging environment?", "type": "MCQ", "level": 1},
+      {"question": "Explain how a CI/CD pipeline works with GitHub Actions.", "type": "Short Answer", "level": 2},
+      {"question": "Design a deployment strategy for a multi-region app.", "type": "Scenario-based", "level": 3},
+      {"question": "True or False: Rollbacks are not possible with blue-green deployments.", "type": "True/False", "level": 4}
+    ],
+    "miniProjects": [
+      {"title": "Deploy a React App", "description": "Use Netlify or Vercel to deploy a frontend app.", "difficulty": "Beginner", "goal_fit": ["Frontend"], "tags": ["netlify", "vercel"], "level": 1},
+      {"title": "CI Pipeline with GitHub", "description": "Create an automated deployment flow.", "difficulty": "Intermediate", "goal_fit": ["DevOps"], "tags": ["ci", "automation"], "level": 2},
+      {"title": "Monitor Live Deployment", "description": "Set up uptime and log monitoring for your app.", "difficulty": "Advanced", "goal_fit": ["Infra"], "tags": ["logs", "monitoring"], "level": 3},
+      {"title": "Create a Rollback Plan", "description": "Design a script and plan to rollback based on status checks.", "difficulty": "Expert", "goal_fit": ["Disaster Recovery"], "tags": ["rollback", "scripts"], "level": 4}
+    ],
+    "suggestionsAndMistakes": {
+      "level_1": ["Always test before pushing to production.", "Use descriptive commit messages."],
+      "level_2": ["Avoid skipping staging steps.", "Use secrets manager for API keys."],
+      "level_3": ["Never deploy directly from local without peer review.", "Test rollback in sandbox regularly."],
+      "level_4": ["Use IAM roles to control deployment access.", "Log every build and track failures explicitly."]
+    }
+  }
+}

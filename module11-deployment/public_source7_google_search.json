@@ -1,0 +1,64 @@
+{
+  "designation": "SDE",
+  "lab": "Projects, Testing & Deployment",
+  "module_id": "project-deployment",
+  "module_title": "Module 11: Project Deployment",
+  "difficulty": "Advanced",
+  "last_updated": "2025-07-19",
+  "tags": ["deployment", "live environment", "monitoring", "rollback", "CD pipelines"],
+  "review_status": "draft",
+  "source": {
+    "type": "google-search",
+    "url": "https://www.google.com/search?q=how+to+deploy+a+project"
+  },
+  "segments": {
+    "introduction": {
+      "level_1": "Google results define deployment as the process of releasing a finished application to the user environment.",
+      "level_2": "It includes setting up domains, SSL, environment variables, and storage buckets.",
+      "level_3": "Tutorials discuss blue-green and canary deployment techniques.",
+      "level_4": "Case studies include scaling backend architecture using Kubernetes and Terraform."
+    },
+    "realWorldUseCases": [
+      {"title": "Blog Hosting", "description": "Deploying a static blog on Netlify with custom domain.", "level": 1},
+      {"title": "E-Commerce Website", "description": "Full-stack deployment with Stripe integration on Vercel.", "level": 2},
+      {"title": "Machine Learning App", "description": "Using Google Cloud Run to deploy a sentiment analysis API.", "level": 3},
+      {"title": "Banking Dashboard", "description": "CI/CD pipeline deployment with secret vaults and multi-region failover.", "level": 4}
+    ],
+    "industryApplications": [
+      {"domain": "Startups", "description": "Google search shows most startups use Heroku, Vercel, or Firebase for rapid deployment.", "level": 1},
+      {"domain": "EdTech", "description": "Educational apps deployed using GitHub Actions and custom workflows.", "level": 2},
+      {"domain": "FinTech", "description": "Articles mention serverless functions with secure API gateways.", "level": 3},
+      {"domain": "Enterprise DevOps", "description": "Best practices include load balancing, infrastructure as code, and observability dashboards.", "level": 4}
+    ],
+    "thinkingPattern": {
+      "level_1": "Search queries suggest learning through simple Netlify or GitHub Pages deployments.",
+      "level_2": "StackOverflow discussions encourage isolating build vs. deploy phases.",
+      "level_3": "Common tips include monitoring with Prometheus and logging with ELK stack.",
+      "level_4": "Suggestions include preparing Helm charts and Kubernetes manifests in advance."
+    },
+    "problemTypes": {
+      "level_1": ["Site not showing after deploy", "SSL certificate not working"],
+      "level_2": ["Failed build on deploy hook", "404 on route refresh in SPA"],
+      "level_3": ["Deployment works locally but fails on prod", "Resource not loading via CDN"],
+      "level_4": ["Blue-green switch fails during high traffic", "Rollback breaks DB schema"]
+    },
+    "assessmentsAndQuizzes": [
+      {"question": "What are some free deployment platforms found via search?", "type": "MCQ", "level": 1},
+      {"question": "How does DNS linking work in deployment?", "type": "Short Answer", "level": 2},
+      {"question": "Design a deployment workflow using GitHub Actions for a full-stack app.", "type": "Scenario-based", "level": 3},
+      {"question": "True or False: Firebase hosting supports backend deployment.", "type": "True/False", "level": 4}
+    ],
+    "miniProjects": [
+      {"title": "Deploy Your Portfolio", "description": "Host your resume site using GitHub Pages.", "difficulty": "Beginner", "goal_fit": ["Web Hosting"], "tags": ["portfolio", "static deploy"], "level": 1},
+      {"title": "CI/CD via GitHub", "description": "Setup GitHub Actions to auto-deploy a Node.js app.", "difficulty": "Intermediate", "goal_fit": ["DevOps"], "tags": ["ci", "auto-deploy"], "level": 2},
+      {"title": "Multi-env Config Setup", "description": "Deploy app with staging and prod separation.", "difficulty": "Advanced", "goal_fit": ["Architecture"], "tags": ["env-vars", "staging"], "level": 3},
+      {"title": "Production Dashboard", "description": "Use Prometheus and Grafana to visualize deployment health.", "difficulty": "Expert", "goal_fit": ["Monitoring"], "tags": ["metrics", "observability"], "level": 4}
+    ],
+    "suggestionsAndMistakes": {
+      "level_1": ["Check that build folder is correctly named (e.g., 'dist').", "Ensure HTTPS redirection is working."],
+      "level_2": ["Avoid hardcoding environment variables.", "Never commit secrets in public repos."],
+      "level_3": ["Don’t skip observability setup—logs, metrics, and alerts.", "Use reverse proxies to route traffic efficiently."],
+      "level_4": ["Plan rollback scenarios before deploying to prod.", "Automate security scanning in CI/CD pipeline."]
+    }
+  }
+}
