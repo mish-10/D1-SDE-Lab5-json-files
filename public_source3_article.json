@@ -1,0 +1,64 @@
+{
+  "designation": "SDE",
+  "lab": "Projects, Testing & Deployment",
+  "module_id": "project-deployment",
+  "module_title": "Module 11: Project Deployment",
+  "difficulty": "Advanced",
+  "last_updated": "2025-07-19",
+  "tags": ["deployment", "hosting", "docker", "production", "ci/cd"],
+  "review_status": "draft",
+  "source": {
+    "type": "public-article",
+    "url": "https://www.digitalocean.com/community/tutorial_series/deploying-applications"
+  },
+  "segments": {
+    "introduction": {
+      "level_1": "Deployment is the process of making your application live for end users.",
+      "level_2": "It includes server setup, domain pointing, and hosting service configuration.",
+      "level_3": "Articles highlight securing apps, choosing infrastructure, and debugging live environments.",
+      "level_4": "Advanced deployment covers container orchestration, load balancing, and monitoring tools."
+    },
+    "realWorldUseCases": [
+      {"title": "Static Portfolio Deployment", "description": "Host a static portfolio using GitHub Pages.", "level": 1},
+      {"title": "Blog on DigitalOcean", "description": "Deploy a blog using Ghost on a VPS.", "level": 2},
+      {"title": "Node.js App on Heroku", "description": "Deploy backend Node.js server to cloud platform.", "level": 3},
+      {"title": "Microservices via Docker Swarm", "description": "Multi-container deployments with networking and service balancing.", "level": 4}
+    ],
+    "industryApplications": [
+      {"domain": "Web Development", "description": "Automated deployments from Git workflows.", "level": 1},
+      {"domain": "DevOps", "description": "Combining deployment with infrastructure-as-code.", "level": 2},
+      {"domain": "Cloud Platforms", "description": "Using AWS, Azure, or GCP for scalable deployments.", "level": 3},
+      {"domain": "Enterprise Software", "description": "Managing large-scale production rollouts with rollback strategies.", "level": 4}
+    ],
+    "thinkingPattern": {
+      "level_1": "Use prebuilt platforms like GitHub Pages for static deployment.",
+      "level_2": "Manually configure simple VPS for dynamic site hosting.",
+      "level_3": "Use CI/CD pipelines and config scripts for production readiness.",
+      "level_4": "Design resilient architectures with zero-downtime deployment."
+    },
+    "problemTypes": {
+      "level_1": ["How to host a static HTML website", "Connect a custom domain to GitHub Pages"],
+      "level_2": ["Install NGINX and serve your web app", "Deploy using basic cloud VPS"],
+      "level_3": ["Create a Docker image and push to Docker Hub", "Use environment variables during deploy"],
+      "level_4": ["Build auto-scaling deployment with health checks", "Configure load balancer for microservices"]
+    },
+    "assessmentsAndQuizzes": [
+      {"question": "What is the difference between deployment and delivery?", "type": "MCQ", "level": 1},
+      {"question": "List three deployment platforms you can use for Node.js.", "type": "Short Answer", "level": 2},
+      {"question": "Write a shell script to deploy a React app to Netlify.", "type": "Practical", "level": 3},
+      {"question": "True or False: Canary deployment reduces blast radius in production.", "type": "True/False", "level": 4}
+    ],
+    "miniProjects": [
+      {"title": "GitHub Pages Hosting", "description": "Deploy a personal portfolio using GitHub Pages.", "difficulty": "Beginner", "goal_fit": ["Web Deployment"], "tags": ["static", "github", "pages"], "level": 1},
+      {"title": "Simple Node.js Deployment", "description": "Host a Node.js app on Render or Heroku.", "difficulty": "Intermediate", "goal_fit": ["Backend", "Deployment"], "tags": ["nodejs", "cloud", "heroku"], "level": 2},
+      {"title": "Dockerize a Web App", "description": "Build and push a Docker image for a full-stack app.", "difficulty": "Advanced", "goal_fit": ["DevOps"], "tags": ["docker", "container"], "level": 3},
+      {"title": "CI/CD Pipeline for Deployment", "description": "Automate deployment using GitHub Actions or CircleCI.", "difficulty": "Expert", "goal_fit": ["Automation"], "tags": ["ci", "cd", "workflow"], "level": 4}
+    ],
+    "suggestionsAndMistakes": {
+      "level_1": ["Don’t forget to update DNS when using custom domain.", "Avoid using localhost links after deployment."],
+      "level_2": ["Test the server on multiple browsers before going live.", "Secure your server with basic firewall rules."],
+      "level_3": ["Don’t hardcode sensitive values. Use .env files instead.", "Monitor logs after initial deploy for errors."],
+      "level_4": ["Avoid single-point-of-failure in architecture.", "Use blue-green deployment to prevent downtime."]
+    }
+  }
+}

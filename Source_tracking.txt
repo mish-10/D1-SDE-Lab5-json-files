@@ -1,0 +1,50 @@
+ Module Title: Module 11: Project Deployment
+Module ID: project-deployment
+Designation: SDE
+Lab: Projects, Testing & Deployment
+Last Updated: 2025-07-19
+
+ SOURCES USED
+Book
+Title: Full Stack Deployment with Docker & Kubernetes
+URL: https://www.oreilly.com/library/view/full-stack-deployment
+
+YouTube
+Title: Deploying a Web App | Docker + CI/CD + Vercel
+URL: https://youtu.be/zA7Bt3QZPpY
+
+Article
+Title: How to Deploy a Full Stack Application
+URL: https://blog.logrocket.com/deploy-full-stack-app-guide/
+
+Research Paper
+Title: Automation of Software Deployment Processes
+URL: https://www.researchgate.net/publication/342580384_Automation_of_Software_Deployment_Processes
+
+Podcast
+Title: DevOps Diaries: Deployment Nightmares and How to Avoid Them
+URL: https://www.devopsdiaries.fm/episodes/deployment
+
+Industry Trends
+Title: 2025 DevOps Trends Report – Continuous Deployment Maturity
+URL: https://www.forrester.com/report/2025-devops-trends
+
+Course
+Title: Deployment Fundamentals for Developers – Azure DevOps
+URL: https://learn.microsoft.com/en-us/training/modules/deploy-app-service/
+
+Google Search
+Keywords: how to deploy a project full stack github actions vercel firebase
+Top Link:
+URL: https://www.freecodecamp.org/news/how-to-deploy-your-project-full-guide/
+Snippet: How to Deploy Your Project – Beginner Friendly DevOps Guide (freeCodeCamp)
+
+NOTES
+Each JSON file was customized per source with different structure, examples, and use cases.
+
+Content diversity is ensured: from DevOps best practices to CI/CD tools, deployment problems, live monitoring, and beginner-friendly hosting.
+
+Tags like monitoring, rollback, live environment, ci/cd pipelines were pulled contextually per source.
+
+
+

@@ -1,0 +1,64 @@
+{
+  "designation": "SDE",
+  "lab": "Projects, Testing & Deployment",
+  "module_id": "project-deployment",
+  "module_title": "Module 11: Project Deployment",
+  "difficulty": "Advanced",
+  "last_updated": "2025-07-19",
+  "tags": ["deployment", "release-cycle", "testing", "cloud", "CI/CD"],
+  "review_status": "draft",
+  "source": {
+    "type": "public-article",
+    "url": "https://dev.to/your-first-deployment-guide"
+  },
+  "segments": {
+    "introduction": {
+      "level_1": "Project deployment is the process of releasing your software to users.",
+      "level_2": "It involves transferring code to production servers and testing it in live environments.",
+      "level_3": "Articles often cover staging environments, load balancing, and A/B testing.",
+      "level_4": "Deployment strategy decisions (blue-green, rolling) are key topics discussed in DevOps blogs."
+    },
+    "realWorldUseCases": [
+      {"title": "Basic Website Deployment", "description": "Using Netlify to deploy a static portfolio site.", "level": 1},
+      {"title": "Heroku Node.js App", "description": "Pushing code to GitHub and auto-deploying to Heroku.", "level": 2},
+      {"title": "Dockerized API", "description": "Deploying a Dockerized backend with NGINX on a cloud VM.", "level": 3},
+      {"title": "E-commerce Site with CDN", "description": "Using AWS CloudFront and S3 to deploy globally.", "level": 4}
+    ],
+    "industryApplications": [
+      {"domain": "Freelancing", "description": "Portfolio hosting, project delivery to clients.", "level": 1},
+      {"domain": "Agencies", "description": "Handling multiple projects with CI integrations.", "level": 2},
+      {"domain": "Startups", "description": "Scaling backend APIs and handling deployment rollback.", "level": 3},
+      {"domain": "Enterprises", "description": "High availability deployments using HAProxy and region redundancy.", "level": 4}
+    ],
+    "thinkingPattern": {
+      "level_1": "Start with free or low-code deployment tools.",
+      "level_2": "Plan for backups and error logs.",
+      "level_3": "Read articles on deployment best practices and architecture.",
+      "level_4": "Adopt secure-by-default configurations using insights from dev communities."
+    },
+    "problemTypes": {
+      "level_1": ["How to deploy a basic HTML site?", "What is Netlify used for?"],
+      "level_2": ["What is staging vs production?", "Explain CI/CD in layman’s terms."],
+      "level_3": ["Plan deployment for a Docker-based app", "Add HTTPS and monitoring tools"],
+      "level_4": ["Implement disaster recovery plan", "Write a safe rollback script"]
+    },
+    "assessmentsAndQuizzes": [
+      {"question": "What does staging environment mean in deployments?", "type": "MCQ", "level": 1},
+      {"question": "Explain the benefits of blue-green deployment.", "type": "Short Answer", "level": 2},
+      {"question": "Design a deployment plan for a news website with daily traffic spikes.", "type": "Scenario-based", "level": 3},
+      {"question": "True or False: A/B testing is a frontend-only deployment strategy.", "type": "True/False", "level": 4}
+    ],
+    "miniProjects": [
+      {"title": "GitHub Pages Site", "description": "Deploy a static website using GitHub Pages.", "difficulty": "Beginner", "goal_fit": ["Frontend"], "tags": ["github", "pages", "static"], "level": 1},
+      {"title": "Heroku CI Setup", "description": "Set up Heroku with GitHub for auto-deployment.", "difficulty": "Intermediate", "goal_fit": ["CI/CD"], "tags": ["heroku", "ci", "automation"], "level": 2},
+      {"title": "Docker + NGINX", "description": "Use Docker to containerize an app and serve with NGINX.", "difficulty": "Advanced", "goal_fit": ["Backend"], "tags": ["docker", "nginx", "vm"], "level": 3},
+      {"title": "Rollback Script", "description": "Write a shell script to revert to previous deployment version.", "difficulty": "Expert", "goal_fit": ["Infra"], "tags": ["bash", "rollback", "infra"], "level": 4}
+    ],
+    "suggestionsAndMistakes": {
+      "level_1": ["Don’t forget to check mobile responsiveness after deploy.", "Never share your deploy keys publicly."],
+      "level_2": ["Always validate staging thoroughly.", "Avoid hardcoding config in production builds."],
+      "level_3": ["Set proper file permissions on servers.", "Don’t skip logs integration like LogRocket or Datadog."],
+      "level_4": ["Simulate a rollback monthly.", "Document every deployment strategy used."]
+    }
+  }
+}

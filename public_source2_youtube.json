@@ -1,0 +1,170 @@
+{
+  "designation": "SDE",
+  "lab": "Projects, Testing & Deployment",
+  "module_id": "project-deployment",
+  "module_title": "Module 11: Project Deployment",
+  "difficulty": "Intermediate",
+  "last_updated": "2025-07-19",
+  "tags": [
+    "deployment",
+    "CI/CD",
+    "DevOps",
+    "production",
+    "infrastructure"
+  ],
+  "review_status": "draft",
+  "source": {
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=9Q6sLbz37gk"
+  },
+  "segments": {
+    "introduction": {
+      "level_1": "Introduction to project deployment and environments.",
+      "level_2": "Key concepts: build, test, release, deploy.",
+      "level_3": "Understanding environments – dev, staging, prod.",
+      "level_4": "High-level view of container orchestration and blue-green deployments."
+    },
+    "realWorldUseCases": [
+      {
+        "title": "Deploying a React + Node.js App on Vercel",
+        "description": "Walkthrough of auto-deployment using GitHub integration.",
+        "level": 1
+      },
+      {
+        "title": "Dockerized Flask App",
+        "description": "End-to-end deployment on DigitalOcean.",
+        "level": 2
+      },
+      {
+        "title": "CI/CD Workflow with Jenkins",
+        "description": "Build > Test > Push > Deploy flow explained.",
+        "level": 3
+      },
+      {
+        "title": "Zero-Downtime Kubernetes Deployment",
+        "description": "Hands-on rolling updates & service mesh explained.",
+        "level": 4
+      }
+    ],
+    "industryApplications": [
+      {
+        "domain": "Startups",
+        "description": "Agile deployment using Heroku or Vercel.",
+        "level": 1
+      },
+      {
+        "domain": "Agencies",
+        "description": "Deploying multiple apps per client via Git workflows.",
+        "level": 2
+      },
+      {
+        "domain": "Enterprise",
+        "description": "Jenkins pipelines & Docker Swarm based workflows.",
+        "level": 3
+      },
+      {
+        "domain": "Big Tech",
+        "description": "Service Mesh, Canary Deployments, and Infrastructure as Code (IaC).",
+        "level": 4
+      }
+    ],
+    "thinkingPattern": {
+      "level_1": "From local server to hosted environment.",
+      "level_2": "Environment isolation and rollback planning.",
+      "level_3": "Automation with pipelines and deployment triggers.",
+      "level_4": "Monitoring, recovery, and traffic shifting logic."
+    },
+    "problemTypes": {
+      "level_1": [
+        "How to deploy a static frontend app?",
+        "What is staging environment?"
+      ],
+      "level_2": [
+        "How to automate build and deploy on push?",
+        "What tools enable CI/CD?"
+      ],
+      "level_3": [
+        "How to rollback after failed deployment?",
+        "Handling dependency issues across environments."
+      ],
+      "level_4": [
+        "How do blue-green deployments reduce risk?",
+        "What is chaos engineering?"
+      ]
+    },
+    "assessmentsAndQuizzes": [
+      {
+        "question": "What are the stages in a basic CI/CD pipeline?",
+        "type": "MCQ",
+        "level": 1
+      },
+      {
+        "question": "Compare GitHub Actions and Jenkins for deployment automation.",
+        "type": "Short Answer",
+        "level": 2
+      },
+      {
+        "question": "Design a CI/CD pipeline with rollback for a Dockerized app.",
+        "type": "Scenario-based",
+        "level": 3
+      },
+      {
+        "question": "True or False: Service mesh helps in traffic routing and observability.",
+        "type": "True/False",
+        "level": 4
+      }
+    ],
+    "miniProjects": [
+      {
+        "title": "Frontend Hosting on Vercel",
+        "description": "Connect GitHub > Auto deploy static site > Custom domain.",
+        "difficulty": "Easy",
+        "goal_fit": ["Deployment"],
+        "tags": ["vercel", "hosting"],
+        "level": 1
+      },
+      {
+        "title": "CI/CD on GitHub",
+        "description": "Create a GitHub workflow for auto-build and deploy.",
+        "difficulty": "Intermediate",
+        "goal_fit": ["Automation"],
+        "tags": ["ci-cd", "workflow"],
+        "level": 2
+      },
+      {
+        "title": "Jenkins Pipeline + Docker",
+        "description": "End-to-end deployment of a containerized app via Jenkins.",
+        "difficulty": "Advanced",
+        "goal_fit": ["DevOps"],
+        "tags": ["jenkins", "docker"],
+        "level": 3
+      },
+      {
+        "title": "Kubernetes Blue-Green Deployment",
+        "description": "Hands-on traffic shifting with rollout/rollback configs.",
+        "difficulty": "Expert",
+        "goal_fit": ["DevOps", "SRE"],
+        "tags": ["k8s", "blue-green"],
+        "level": 4
+      }
+    ],
+    "suggestionsAndMistakes": {
+      "level_1": [
+        "Don’t deploy directly to production without testing.",
+        "Avoid hardcoding URLs or keys."
+      ],
+      "level_2": [
+        "Avoid skipping CI setup – saves future headaches.",
+        "Always test on staging before prod."
+      ],
+      "level_3": [
+        "Don’t forget rollback mechanisms.",
+        "Never push secrets into version control."
+      ],
+      "level_4": [
+        "Monitor everything post-deployment.",
+        "Simulate failures in staging before real launches."
+      ]
+    }
+  }
+}
